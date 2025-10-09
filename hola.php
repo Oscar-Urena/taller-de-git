@@ -1,4 +1,4 @@
 <?php
-echo "Hola mundo {$argv[1]}.\n";
+echo "Hola argv[1]}.\n";
 ?>
 
