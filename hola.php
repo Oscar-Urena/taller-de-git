@@ -1,5 +1,7 @@
 <?php
-$nombre = isset($argv[1])? $argv[1]: "Mundo";
-echo "Hola {$nombre}.\n";
+// MOdificación 
+print "Introduce tu nombre";
+$nombre = trim(fgets(STDIN));
+@print "Hola {$nombre}.\n";
 ?>
 
